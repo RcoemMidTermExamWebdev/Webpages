@@ -15,7 +15,7 @@
     z-index: 0;
     
     
-}
+}/* optimizing nav   */
 .nav1{
     
     color: #bcbcbc;
@@ -38,7 +38,7 @@
     align-items: center;
     border-bottom: 1px solid #8f8f8f69;
 }
-
+/* navigation bar logo */
 #navbar #logo{
     height: 100%;
     width: 200px;
@@ -161,7 +161,7 @@ font-family: "Poppins", sans-serif;
   border-bottom: 1px solid rgb(101, 101, 101);
 
 }
-
+/* resizing images */
 #food{
     position: absolute;
     top:75%;
@@ -203,7 +203,7 @@ font-family: "Poppins", sans-serif;
     color: #8f8f8f;
     
 }
-
+/* about branches */
 #about{
     width: 80%;
     margin: auto;
