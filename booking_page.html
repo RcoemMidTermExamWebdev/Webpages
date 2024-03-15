@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
     <style>
         body{
@@ -21,37 +24,52 @@
         }
     </style>
     <link rel="stylesheet" href="booking.css">
+
+    <style> 
+      input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 13px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 1px 2px 1px 4px;
+        transition: width 0.4s ease-in-out;
+        border: solid black;
+        margin-left: 0;
+      }
+      
+      input[type=text]:focus {
+        width: 100%;
+      }
+      </style>
+      </style>
 </head>
 <body>
     <div class="box1">
       <div class="right">
         <div class="header">
-        <h1>Make Reservation</h1>
+        <h2>BOOK</h2>
+        <h3>Make Reservation </h3>
       </div>
-        
+
         <div  class="form">
-          <div class="flex ">
-            Name:<input type="text" id="name">
-          </div>
-          <div class="flex">
-            Name:<input type="text" id="name">
-          </div>
-          <div class="flex">
-            Name:<input type="text" id="name">
-          </div>
-            //Adding new textbox
-          <div class="flex">
-            Name:<input type="text" id="name">
-          </div>
-            <div class="flex">
-            Name:<input type="text" id="name">
-          </div>
-          <div class="flex">
-            Name:<input type="text" id="name">
-          </div>
-            <input type="submit" class="submit">
-            // Adding new Make Appointment buttons
-            <input type="Make appointment" class="submit">
+          <form action="/action_page.php">
+            <label for="fname"><p>Name:</p></label><br>
+            <input type="text" id="fname" name="fname"  placeholder="Name"><br>
+            <label for="fname"><p>Date:</p></label><br>
+            <input type="text" id="fname" name="fname" placeholder="Date"><br>
+            <label for="fname"><p>Table:</p></label><br>
+            <input type="text" id="fname" name="fname" placeholder="Table"><br>
+            <label for="fname"><p>Contact:</p></label><br>
+            <input type="text" id="fname" name="fname" placeholder="+91"><br>
+          </form> 
+          <div class="buttons">
+            <button class="b1"><p>BOOK</p></button>
+        </div>   
         </form>
       </div>
       <div class="left">
