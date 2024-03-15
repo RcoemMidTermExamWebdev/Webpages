@@ -68,7 +68,7 @@
             <input type="text" id="fname" name="fname" placeholder="+91"><br>
           </form> 
           <div class="buttons">
-            <button class="b1"><p>BOOK</p></button>
+            <button class="b1" onclick="navigateToEPage()"><p>BOOK</p></button>
         </div>   
         </form>
       </div>
@@ -76,5 +76,13 @@
         <img src="noodles-mixed-with-mushrooms-topped-with-sesame-seeds.jpg" alt="img">
       </div>
     </div>
+    <script>
+      function navigateToEPage() {
+          window.location.href = "explore.html"; 
+      }
+      function navigateToRPage() {
+          window.location.href = "booking_page.html"; 
+      }
+  </script>
 </body>
 </html>

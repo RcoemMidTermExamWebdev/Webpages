@@ -49,8 +49,8 @@ nav ul li{
 a{
   position: relative;
   text-decoration: none;
-font-size: 15px;
-letter-spacing 0.5px; ;
+  font-size: 15px;
+  letter-spacing: 0.5px; 
 }
 a:after{
   content: "";
@@ -110,6 +110,9 @@ section .container .hero_content h1 span{
   color: green;
   font-family:fantasy;
   font-size: 100px;
+}
+section .container .hero_image img{
+  width:100%;
 }
 section nav.logo img{
   width: 120px;
