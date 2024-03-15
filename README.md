@@ -1,4 +1,4 @@
-#**Restaurant Website Project**
+# Restaurant Website Project
 ## Overview
 This project was created as part of a collaborative effort within our team to build a restaurant website. We utilized GitHub to manage our codebase, organize our work, and deploy the website using GitHub Pages.
 
