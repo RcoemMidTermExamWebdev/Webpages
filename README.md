@@ -21,13 +21,12 @@ index.html: The main HTML file for the website.
 How to Access the Website
 To view the website, simply click on the following link: https://rcoemmidtermexamwebdev.github.io/Webpages/.
 
-## Team Members
-[Your Name]: Describe your role in the project and any specific contributions you made.
-[Team Member 1 :Himanshu Pandey]: Building Reservation page for The Restaurant.
-[Team Member 2 :Priti Dubey]: Building Landing Page For the Restaurant.
-[Team Member 3 :Harsh Shrivastava]: Building Home Page For The Restaurant And Link The Pages And Deploy The Website.
-[Team Member 2 :Manish Ambule]: Review the Site, Find error, And Notify The team.
-[Team Member 3 :Shruti Konde]:  Review the Site, Testing navigation of pages, And Notify The team.
+## Team Members:-
+#### [Team Member 1 :Himanshu Pandey]: Building Reservation page for The Restaurant.
+#### [Team Member 2 :Priti Dubey]: Building Landing Page For the Restaurant.
+#### [Team Member 3 :Harsh Shrivastava]: Building Home Page For The Restaurant And Link The Pages And Deploy The Website.
+#### [Team Member 2 :Manish Ambule]: Review the Site, Find error, And Notify The team.
+#### [Team Member 3 :Shruti Konde]:  Review the Site, Testing navigation of pages, And Notify The team.
 
 ## Conclusion
 This project was a great learning experience for our team, allowing us to apply our skills in web development, collaboration, and project management. We hope you enjoy exploring our restaurant website!
